@@ -1,0 +1,10 @@
+[package]
+name = "grim"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/milmil7/grim"
+
+[dependencies]
+ratatui = "0.29.0"
+crossterm = "0.28.1"
+sysinfo = { version = "0.28.4", features = [] }
